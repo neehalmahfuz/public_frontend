@@ -9,18 +9,17 @@ const Login = () => {
       <div className="login-box">
         <img className="logo" src={logo} alt="Logo" />
         <h2>School Name Login</h2>
-        <form>
-          <div className="form-group">
-            <label htmlFor="username">Username:</label>
-            <input type="text" id="username" name="username" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="password">Password:</label>
-            <input type="password" id="password" name="password" />
-          </div>
+        <div className="form-group">
+          <label htmlFor="username">Username:</label>
+          <input type="text" id="username" name="username" />
+        </div>
+        <div className="form-group">
+          <label htmlFor="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </div>
 
-          <button className="login-btn" type="submit">Log in</button>
-        </form>
+        <a href="https://school-website-abrar.netlify.app/" className="login-btn">Log in</a>
+
         <Link to="/" className="back-btn">&#8592; Back</Link>
       </div>
     </div>
